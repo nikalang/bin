@@ -1,0 +1,2 @@
+#!/bin/sh
+$NIKA_HOME/repository/util/script/nika.tcl "$@"
