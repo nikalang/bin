@@ -1,2 +1,2 @@
 #!/bin/sh
-"$NIKA_HOME/util/script/tclsh" "$NIKA_HOME/util/script/nika.tcl" "$@"
+"$NIKA_HOME/bin/nikash" "$NIKA_HOME/util/script/nika" "$@"
