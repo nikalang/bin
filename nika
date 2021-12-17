@@ -1,6 +1,6 @@
 #!/bin/sh
-if [ -z "$NIKASH_BIN" ]; then
+if [ -z "$NIKA_NIKASH_BIN" ]; then
     "$NIKA_HOME/bin/nikash" "$NIKA_HOME/util/script/nika" "$@"
 else
-    "$NIKASH_BIN" "$NIKA_HOME/util/script/nika" "$@"
+    "$NIKA_NIKASH_BIN" "$NIKA_HOME/util/script/nika" "$@"
 fi
